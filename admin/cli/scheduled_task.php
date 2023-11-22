@@ -94,7 +94,6 @@ if ($options['list']) {
         $schedule = $task->get_minute() . ' '
             . $task->get_hour() . ' '
             . $task->get_day() . ' '
-            . $task->get_day_of_week() . ' '
             . $task->get_month() . ' '
             . $task->get_day_of_week();
         $nextrun = $task->get_next_run_time();
